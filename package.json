@@ -4,7 +4,12 @@
   "description": "An API REST using express.js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Trejillo10/EW.git"
   },
   "keywords": [
     "api",
@@ -14,7 +19,13 @@
   ],
   "author": "Carmen",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trejillo10/EW/issues"
+  },
+  "homepage": "https://github.com/Trejillo10/EW#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
   }
 }
